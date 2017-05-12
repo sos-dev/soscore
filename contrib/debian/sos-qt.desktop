@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sos
+Comment=Sos P2P Cryptocurrency
+Comment[fr]=Sos, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Sos, eşten eşe kriptografik sanal para birimi
+Exec=sos-qt %u
+Terminal=false
+Type=Application
+Icon=sos128
+MimeType=x-scheme-handler/sos;
+Categories=Office;Finance;

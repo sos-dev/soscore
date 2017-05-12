@@ -1,0 +1,33 @@
+# /etc/conf.d/sosd: config file for /etc/init.d/sosd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/soscore/sos.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sosd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sosd.pid"
+
+# Where to write sosd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sosd"
+
+# User and group to own sosd process
+#BITCOIND_USER="soscore"
+#BITCOIND_GROUP="soscore"
+
+# Path to sosd executable
+#BITCOIND_BIN="/usr/bin/sosd"
+
+# Nice value to run sosd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

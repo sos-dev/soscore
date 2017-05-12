@@ -1,0 +1,6 @@
+usr/local/bin/sos-qt usr/bin
+share/pixmaps/sos32.xpm usr/share/pixmaps
+share/pixmaps/sos16.xpm usr/share/pixmaps
+share/pixmaps/sos128.png usr/share/pixmaps
+debian/sos-qt.desktop usr/share/applications
+debian/sos-qt.protocol usr/share/kde4/services/

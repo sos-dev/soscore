@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/sos_bg.qm</file>
+        <file alias="de">locale/sos_de.qm</file>
+        <file alias="en">locale/sos_en.qm</file>
+        <file alias="es">locale/sos_es.qm</file>
+        <file alias="fi">locale/sos_fi.qm</file>
+        <file alias="fr">locale/sos_fr.qm</file>
+        <file alias="it">locale/sos_it.qm</file>
+        <file alias="ja">locale/sos_ja.qm</file>
+        <file alias="pl">locale/sos_pl.qm</file>
+        <file alias="pt">locale/sos_pt.qm</file>
+        <file alias="ru">locale/sos_ru.qm</file>
+        <file alias="sk">locale/sos_sk.qm</file>
+        <file alias="sv">locale/sos_sv.qm</file>
+        <file alias="vi">locale/sos_vi.qm</file>
+        <file alias="zh_CN">locale/sos_zh_CN.qm</file>
+        <file alias="zh_TW">locale/sos_zh_TW.qm</file>
+    </qresource>
+</RCC>

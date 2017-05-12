@@ -1,0 +1,22 @@
+[Unit]
+Description=Sos's distributed currency daemon
+After=network.target
+
+[Service]
+User=soscore
+Group=soscore
+
+Type=forking
+PIDFile=/var/lib/sosd/sosd.pid
+ExecStart=/usr/bin/sosd -daemon -pid=/var/lib/sosd/sosd.pid \
+-conf=/etc/soscore/sos.conf -datadir=/var/lib/sosd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
